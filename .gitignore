@@ -209,5 +209,5 @@ Debug/
 Release/
 html-exam/
 upload/
-app/src/main/resources/static/
+# app/src/main/resources/static/
 #naver.properties
