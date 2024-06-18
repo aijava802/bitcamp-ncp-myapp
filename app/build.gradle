@@ -103,9 +103,13 @@ sourceSets {
 }
 */
 
+// processResources {
+//   dependsOn "copyReactFile"
+//   //dependsOn "appNpmInstall"
+// }
+
 processResources {
-  dependsOn "copyReactFile"
-  //dependsOn "appNpmInstall"
+  dependsOn "appNpmInstall"
 }
 
 
